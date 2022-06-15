@@ -62,6 +62,7 @@ public class Register extends AppCompatActivity {
                         setResult(RESULT_OK, result);
                         finish();
 
+
                     }
                 }
             }
