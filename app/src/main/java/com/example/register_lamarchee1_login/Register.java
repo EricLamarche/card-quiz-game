@@ -61,6 +61,7 @@ public class Register extends AppCompatActivity {
                         Intent result = new Intent();
                         setResult(RESULT_OK, result);
                         finish();
+
                     }
                 }
             }
