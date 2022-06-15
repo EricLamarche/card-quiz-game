@@ -56,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="DD/MM/YYYY"
+        android:hint="DDMMYYYY"
         android:inputType="date"
         app:layout_constraintBottom_toBottomOf="@+id/lblBirthday"
         app:layout_constraintStart_toStartOf="@+id/edtPassword"
