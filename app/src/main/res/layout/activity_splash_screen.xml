@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="180dp"
-        android:text="Welcome to Eric's App"
+        android:text="@string/welcome_to_the_quiz"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,8 +22,11 @@
         android:layout_width="201dp"
         android:layout_height="276dp"
         android:layout_marginTop="40dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="@+id/txtAppName"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="@+id/txtAppName"
         app:layout_constraintTop_toBottomOf="@+id/txtAppName"
-        app:srcCompat="@drawable/palmtree" />
+        app:srcCompat="@drawable/beachappimage" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,4 @@
-package com.example.register_lamarchee1_login;
+package com.example.CARD_QUIZ_Lamarchee1_GAME;
 
 import android.content.Context;
 

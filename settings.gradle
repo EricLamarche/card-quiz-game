@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Register_Lamarchee1_Login"
+rootProject.name = "CARD_QUIZ_Lamarchee1_GAME"
 include ':app'

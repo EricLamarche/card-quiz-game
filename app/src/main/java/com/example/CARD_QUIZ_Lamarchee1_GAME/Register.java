@@ -1,8 +1,10 @@
-package com.example.register_lamarchee1_login;
+package com.example.CARD_QUIZ_Lamarchee1_GAME;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,6 +12,10 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class Register extends AppCompatActivity {
+
+    public static final String SHARED_PREF_EMAIL = "email";
+    public static final String SHARED_PREF_PASSWORD = "password";
+    public static final String SHARED_PREF_FILENAME = "sharedPref";
 
     EditText edtFirstName, edtLastName, edtBirthday, edtPassword, etdEmail;
     Button btnCancel, btnSubmit;
@@ -57,6 +63,15 @@ public class Register extends AppCompatActivity {
                         Toast.makeText(Register.this, "Error: email must contain @ and .com or .edu", Toast.LENGTH_SHORT).show();
 
                     } else {
+
+                        //save the current user info to the shared preferences
+                        SharedPreferences sharedPref = getSharedPreferences(SHARED_PREF_FILENAME, Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = sharedPref.edit();
+                        editor.putString(SHARED_PREF_EMAIL, email);
+                        editor.putString(SHARED_PREF_PASSWORD, password);
+                        editor.apply();
+
+
                         //send back register successful
                         Intent result = new Intent();
                         setResult(RESULT_OK, result);

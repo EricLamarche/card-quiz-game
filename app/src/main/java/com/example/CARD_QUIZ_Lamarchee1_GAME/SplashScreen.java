@@ -1,11 +1,10 @@
-package com.example.register_lamarchee1_login;
+package com.example.CARD_QUIZ_Lamarchee1_GAME;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 public class SplashScreen extends AppCompatActivity {

@@ -10,20 +10,23 @@
         android:id="@+id/txtAppName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Welcome to Eric's App"
+        android:layout_marginTop="124dp"
+        android:text="@string/welcome_to_the_quiz"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imgAppPicture"
-        android:layout_width="146dp"
+        android:layout_width="182dp"
         android:layout_height="125dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="@+id/txtAppName"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/txtAppName"
         app:layout_constraintTop_toBottomOf="@+id/txtAppName"
-        app:srcCompat="@drawable/palmtree" />
+        app:srcCompat="@drawable/beachappimage" />
 </androidx.constraintlayout.widget.ConstraintLayout>

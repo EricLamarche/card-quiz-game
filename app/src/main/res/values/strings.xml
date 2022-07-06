@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Register_Lamarchee1_Login</string>
+    <string name="app_name">CARD_QUIZ_Lamarchee1_GAME</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_the_quiz">Welcome to the Quiz</string>
+    <string name="todo">TODO</string>
+    <string name="submit">Submit</string>
+    <string name="question">question</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="questions">questions</string>
+    <string name="textview">TextView</string>
+    <string name="correct_answer">Correct Answer</string>
+    <string name="user_answer">User Answer</string>
 </resources>

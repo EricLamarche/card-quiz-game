@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.register_lamarchee1_login">
+    package="com.example.CARD_QUIZ_Lamarchee1_GAME">
+
+
 
     <application
         android:allowBackup="true"
@@ -14,13 +16,19 @@
         android:theme="@style/Theme.Register_Lamarchee1_Login"
         tools:targetApi="31">
         <activity
-            android:name=".Register"
+            android:name="com.example.CARD_QUIZ_Lamarchee1_GAME.Results"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen"
+            android:name="com.example.CARD_QUIZ_Lamarchee1_GAME.Quiz"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.CARD_QUIZ_Lamarchee1_GAME.Register"
+            android:exported="false" />
+        <activity
+            android:name="com.example.CARD_QUIZ_Lamarchee1_GAME.SplashScreen"
+            android:exported="false" />
+        <activity
+            android:name="com.example.CARD_QUIZ_Lamarchee1_GAME.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
