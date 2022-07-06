@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".questions.frag_MultipleSelection">
+
+
+    <TextView
+        android:id="@+id/txtMS_Question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/questions"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/radMS_Answer1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/radMS_Answer1"
+        android:layout_width="619dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/radiobutton"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/txtMS_Question"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintStart_toStartOf="@+id/txtMS_Question"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <CheckBox
+        android:id="@+id/radMS_Answer2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/radiobutton"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/radMS_Answer1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/radMS_Answer1"
+        app:layout_constraintTop_toBottomOf="@+id/radMS_Answer1" />
+
+    <CheckBox
+        android:id="@+id/radMS_Answer3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/radiobutton"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/radMS_Answer2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/radMS_Answer2"
+        app:layout_constraintTop_toBottomOf="@+id/radMS_Answer2" />
+
+    <CheckBox
+        android:id="@+id/radMS_Answer4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/radiobutton"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/radMS_Answer3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/radMS_Answer3"
+        app:layout_constraintTop_toBottomOf="@+id/radMS_Answer3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
